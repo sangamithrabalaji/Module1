@@ -1,21 +1,29 @@
+# Ex 1b:Datatypes-Program to read a tuple and convert it into a list.
+## Aim
+To write a Python program that reads a tuple from the user and converts it into a list using the eval() function.
 
-# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+## Algorithm
+1.Start the program.
 
-## 🎯 Aim
-To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
+2.Read the tuple input from the user using input().
 
-## 🧠 Algorithm
-1. Set variable `a` to the result of the expression `0 == True`.
-2. Set variable `b` to the result of the expression `False == False`.
-3. Set variable `c` to the result of the expression `True + True`.
-4. Set variable `d` to the result of the expression `False + 9`.
-5. Print the value of `a` with the label "a is".
-6. Print the value of `b` with the label "b is".
-7. Print the value of `c` with the label "c:".
-8. Print the value of `d` with the label "d:".
+3.Convert the input string into a tuple using eval().
 
-## 💻 Program
-Add Code here
+4.Convert the tuple into a list using the list() function.
 
+5.Display the resulting list.
+
+6.End the program.
+## Program
+```
+tuple_input=eval(input())
+list_output=list(tuple_input)
+
+print("List=", end='')
+print(list_output)
+```
 ## Output
+<img width="905" height="186" alt="image" src="https://github.com/user-attachments/assets/94668074-7860-44d6-948b-8fb226719258" />
+
 ## Result
+Thus, the Python program to convert a tuple into a list using eval() was successfully executed and the expected output was obtained.
